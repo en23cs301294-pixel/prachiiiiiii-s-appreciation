@@ -9,34 +9,44 @@ const Hero = () => {
       image: './images/flower1.png',
       color: 'linear-gradient(135deg, #d4a017 0%, #f2c94c 100%)',
       // desc: `Radiant blooms that follow the sun ✨ you are the sunshine gentle but powerful`,
-      desc: `🌻 Sunflowers for positivity and bright days`,
+      desc: `🌻 Hey… I just want you to know, you're doing really well.
+Even on the days you doubt yourself, you're still moving forward.
+And that matters more than anything.`,
     },
     {
       name: 'TULIPS',
       image: './images/flower2.png',
       color: 'linear-gradient(135deg, #4b0fcf 0%, #8140d8 100%)',
       // desc: `Graceful love in every petal 💜 you are the gentle breeze that brings comfort on a hot day`,
-      desc: `🌷 Tulips for grace and beauty,🌷 for happiness and comfort`,
+      desc: `🌷 I know this journey hasn’t been easy…
+Three years of showing up, trying again, and not giving up.
+That strength? It’s rare. And I admire it more than you think`,
     },
     {
       name: 'CHERRY BLOSSOM',
       image: './images/flower4.png',
       color: 'linear-gradient(135deg, #e48aa0 0%, #f06b9b 100%)',
       // desc: `Beautiful moments, like us together 🌸 you are toooo cute`,
-      desc: `🌸 Cherry blossoms for beauty and tranquility | 🌸  for beautiful moments`,
+      desc: `🌸 Some days might feel overwhelming…
+But even then, you’re growing in ways you can’t see yet.
+Just like these blossoms… quiet, but beautiful.`,
     },
     {
       name: 'ORCHID',
       image: './images/flower5.png',
       color: 'linear-gradient(135deg, #0f4ba8 0%, #2b7ddf 100%)',
       // desc: `Rare beauty, just like you 💙 you are the gentle flower that brings joy to my life`,
-      desc: `🌼 Orchids for growth and strength`,
+      desc: `🌼 You’ve sacrificed so much to get here.
+Late nights, pressure, expectations…
+And yet, you’re still standing. That says everything about you.`,
     },
     {
       name: 'RED ROSE',
       image: './images/flower3.png',
       color: 'linear-gradient(135deg, #7a0b10 0%, #b91c1c 100%)',
-      desc: `🌹 Roses for all the good things life has to offer ❤️🌹 And roses… just to complete it. Great Year Ahead🐰 `,
+      desc: `🌹 No matter what happens in the exam…
+I’m really proud of you.
+And I’ll always be cheering for you — quietly, but always.🐰 `,
     },
   ]
 

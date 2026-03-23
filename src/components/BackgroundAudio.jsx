@@ -11,12 +11,18 @@ function BackgroundAudio() {
 
     // Set initial volume
     audio.volume = 0.3;
+    audio.muted = isMuted;
 
-    // Try to play automatically
+    // Try to play automatically on load
     const playAudio = async () => {
       try {
         await audio.play();
         setIsPlaying(true);
+
+        // Some browsers only allow autoplay when muted, unmute after success if needed
+        if (!isMuted) {
+          audio.muted = false;
+        }
       } catch (error) {
         console.log('Autoplay prevented by browser:', error);
         // Autoplay was prevented - this is normal
