@@ -101,8 +101,8 @@ And I’ll always be cheering for you — quietly, but always.🐰 `,
         {/* Special header message */}
         <div className="special-message">
           <span className="heart-icon">💝</span>
-          <p>A Happy Birthday 🐻‍❄️🐼
-            To a better, brighter year</p>
+          <p>Cheerful Appreciation🐻‍❄️🐼
+            Prachiii</p>
         </div>
 
         <motion.div
