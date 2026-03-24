@@ -56,7 +56,7 @@ And I’ll always be cheering for you — quietly, but always.🐰 `,
   const handleNext = () => {
     setTimeout(() => {
       setIndex((prev) => (prev + 1) % flowers.length)
-    }, 600) 
+    }, 1000) 
   }
 
   const goToFlower = (idx) => {
@@ -71,7 +71,7 @@ And I’ll always be cheering for you — quietly, but always.🐰 `,
   React.useEffect(() => {
     const interval = setInterval(() => {
       handleNext()
-    }, 5000)
+    }, 8000)
     return () => clearInterval(interval)
   }, [])
 
@@ -111,7 +111,7 @@ And I’ll always be cheering for you — quietly, but always.🐰 `,
           initial={{ x: -100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           exit={{ x: 100, opacity: 0 }}
-          transition={{ duration: 0.8, ease: [0.4, 0, 0.2, 1] }}
+          transition={{ duration: 1.2, ease: [0.4, 0, 0.2, 1] }}
         >
           <div className="flower-name-wrapper">
             <h1>{current.name}</h1>
